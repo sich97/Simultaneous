@@ -11,7 +11,6 @@ def main():
     time.sleep(5)
     second_spot = pyautogui.position()
 
-    time.sleep(5)
     pyautogui.leftClick(first_spot)
     pyautogui.leftClick(second_spot)
 
